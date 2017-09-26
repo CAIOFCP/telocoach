@@ -1,7 +1,7 @@
 module.exports = {
   'Sample functional test' : function (browser) {
     browser
-      .url('https://telocoach.mybluemix.net/')
+      .url('http://telocoachstage.mybluemix.net/')
       .waitForElementVisible('#telobtn', 60000, true,
         function(){}, 'Waiting for button Salario to become visible')
       .click('#telobtn')
