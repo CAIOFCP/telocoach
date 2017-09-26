@@ -1,7 +1,7 @@
 module.exports = {
   'Sample functional test' : function (browser) {
     browser
-      .url('http://google.com')
+      .url('https://telocoach.mybluemix.net/')
       .waitForElementVisible('input.gsfi', 60000, true,
         function(){}, 'Waiting for Search Input to become visible')
       .setValue('input.gsfi', 'Test')
